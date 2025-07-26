@@ -1,1 +1,0 @@
-# ramiadam.com
