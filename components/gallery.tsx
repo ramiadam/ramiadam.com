@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useCallback } from "react"
 import Image from "next/image"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
-type PhotoLayout = "v" | "h"
+type PhotoLayout = "v" | "h" | "hm"
 
 type Photo = {
   src: string
@@ -15,26 +15,29 @@ type Photo = {
 
 const photos: Photo[] = [
 
+  // Row 1: 3 portraits
   { src: "/images/gallery-100.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
   { src: "/images/gallery-110.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
   { src: "/images/gallery-120.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
 
+  // Row 2: full-width break
   { src: "/images/gallery-320.jpg", alt: "Portrait photography by Rami Adam", layout: "h", pos: "50% 20%" },
 
-  { src: "/images/gallery-230.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  // Row 3: tall + wide pair
+  { src: "/images/gallery-410.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "0% 20%" },
+  { src: "/images/gallery-720.jpg", alt: "Portrait photography by Rami Adam", layout: "hm", pos: "50% 35%" },
+
+  // Row 4: 3 portraits
   { src: "/images/gallery-210.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
   { src: "/images/gallery-220.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  { src: "/images/gallery-230.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
 
-  { src: "/images/gallery-720.jpg", alt: "Portrait photography by Rami Adam", layout: "h", pos: "50% 35%"},
-  // { src: "/images/gallery-310.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
-
+  // Row 5: wide + tall pair (flipped)
+  { src: "/images/gallery-630.jpg", alt: "Portrait photography by Rami Adam", layout: "hm", pos: "50% 35%" },
   { src: "/images/gallery-420.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "90% 35%" },
-  // { src: "/images/gallery-450.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
-  { src: "/images/gallery-410.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "0% 20%" },
-  // { src: "/images/gallery-440.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
-  { src: "/images/gallery-430.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "100% 0%" },
 
-  { src: "/images/gallery-630.jpg", alt: "Portrait photography by Rami Adam", layout: "h", pos: "50% 35%" },
+  // Closer
+  { src: "/images/gallery-430.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "100% 0%" },
 
   // { src: "/images/gallery-620.jpg", alt: "Error404", layout: "v", pos: "center"},
 
@@ -70,10 +73,10 @@ function GalleryItem({
   }, [])
 
   const isH = photo.layout === "h"
+  const isHm = photo.layout === "hm"
 
-  // Keep your original sizing logic
-  const aspectClass = isH ? "aspect-[2.5/1]" : "aspect-[3/4]"
-  const spanClass = isH ? "col-span-3" : "col-span-1"
+  const aspectClass = isH ? "aspect-[2.5/1]" : isHm ? "aspect-[3/2]" : "aspect-[3/4]"
+  const spanClass = isH ? "col-span-3" : isHm ? "col-span-2" : "col-span-1"
 
   return (
     <div
