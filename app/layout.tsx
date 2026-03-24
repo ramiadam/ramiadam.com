@@ -19,6 +19,27 @@ export const metadata: Metadata = {
   title: "Rami Adam | Where People Become Art",
   description:
     "Rami Adam is a photographer based in KSA. Where people become art. Explore the gallery and get in touch.",
+  openGraph: {
+    title: "Rami Adam | Where People Become Art",
+    description: "Rami Adam is a photographer based in KSA. Where people become art.",
+    url: "https://ramiadam.com",
+    siteName: "Rami Adam",
+    images: [
+      {
+        url: "https://ramiadam.com/images/gallery-01.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Rami Adam Photography",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rami Adam | Where People Become Art",
+    description: "Rami Adam is a photographer based in KSA. Where people become art.",
+    images: ["https://ramiadam.com/images/gallery-01.jpg"],
+  },
 }
 
 export const viewport: Viewport = {

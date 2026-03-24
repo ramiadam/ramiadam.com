@@ -15,26 +15,26 @@ type Photo = {
 
 const photos: Photo[] = [
 
-  { src: "/images/gallery-100.jpg", alt: "Error404", layout: "v", pos: "center" },
-  { src: "/images/gallery-110.jpg", alt: "Error404", layout: "v", pos: "center" },
-  { src: "/images/gallery-120.jpg", alt: "Error404", layout: "v", pos: "center" },
+  { src: "/images/gallery-100.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  { src: "/images/gallery-110.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  { src: "/images/gallery-120.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
 
-  { src: "/images/gallery-320.jpg", alt: "Error404", layout: "h", pos: "50% 20%" },
+  { src: "/images/gallery-320.jpg", alt: "Portrait photography by Rami Adam", layout: "h", pos: "50% 20%" },
 
-  { src: "/images/gallery-230.jpg", alt: "Error404", layout: "v", pos: "center" },
-  { src: "/images/gallery-210.jpg", alt: "Error404", layout: "v", pos: "center" },
-  { src: "/images/gallery-220.jpg", alt: "Error404", layout: "v", pos: "center" },
+  { src: "/images/gallery-230.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  { src: "/images/gallery-210.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  { src: "/images/gallery-220.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
 
-  { src: "/images/gallery-720.jpg", alt: "Error404", layout: "h", pos: "50% 35%"},
-  // { src: "/images/gallery-310.jpg", alt: "Error404", layout: "v", pos: "center" },
+  { src: "/images/gallery-720.jpg", alt: "Portrait photography by Rami Adam", layout: "h", pos: "50% 35%"},
+  // { src: "/images/gallery-310.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
 
-  { src: "/images/gallery-420.jpg", alt: "Error404", layout: "v", pos: "90% 35%" },
-  // { src: "/images/gallery-450.jpg", alt: "Error404", layout: "v", pos: "center" },
-  { src: "/images/gallery-410.jpg", alt: "Error404", layout: "v", pos: "0% 20%" },
-  // { src: "/images/gallery-440.jpg", alt: "Error404", layout: "v", pos: "center" },
-  { src: "/images/gallery-430.jpg", alt: "Error404", layout: "v", pos: "100% 0%" },
+  { src: "/images/gallery-420.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "90% 35%" },
+  // { src: "/images/gallery-450.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  { src: "/images/gallery-410.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "0% 20%" },
+  // { src: "/images/gallery-440.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "center" },
+  { src: "/images/gallery-430.jpg", alt: "Portrait photography by Rami Adam", layout: "v", pos: "100% 0%" },
 
-  { src: "/images/gallery-630.jpg", alt: "Error404", layout: "h", pos: "50% 35%" },
+  { src: "/images/gallery-630.jpg", alt: "Portrait photography by Rami Adam", layout: "h", pos: "50% 35%" },
 
   // { src: "/images/gallery-620.jpg", alt: "Error404", layout: "v", pos: "center"},
 
