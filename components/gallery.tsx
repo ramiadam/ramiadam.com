@@ -37,12 +37,12 @@ const photos: Photo[] = [
   { src: "/images/gallery-2000.jpg", alt: "Elder man at colorful market stall", layout: "v", pos: "center" },
 
   // Row 6: urban + festival portraits
-  { src: "/images/gallery-310.jpg", alt: "Woman posing at digital billboard", layout: "v", pos: "center" },
+  { src: "/images/gallery-440.jpg", alt: "Man at Uganda cultural stall", layout: "v", pos: "center" },
   { src: "/images/gallery-410.jpg", alt: "Woman with red flower at festival", layout: "v", pos: "50% 20%" },
   { src: "/images/gallery-420.jpg", alt: "Close portrait with flower crown", layout: "v", pos: "center" },
 
   // Row 7: joyful candid + street wide
-  { src: "/images/gallery-440.jpg", alt: "Man at Uganda cultural stall", layout: "v", pos: "center" },
+  { src: "/images/gallery-310.jpg", alt: "Woman posing at digital billboard", layout: "v", pos: "center" },
   { src: "/images/gallery-800.jpg", alt: "Three children walking in matching red uniforms", layout: "hm", pos: "50% 40%" },
 
   // { src: "/images/gallery-620.jpg", alt: "Error404", layout: "v", pos: "center"},
