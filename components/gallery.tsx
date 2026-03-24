@@ -17,33 +17,33 @@ const photos: Photo[] = [
 
   // Row 1: bold openers — color, mood, studio
   { src: "/images/gallery-100.jpg", alt: "Man in front of red Emergency sign", layout: "v", pos: "center" },
-  { src: "/images/gallery-610.jpg", alt: "Silhouette portrait in black and white", layout: "v", pos: "center" },
+  { src: "/images/gallery-110.jpg", alt: "Silhouette portrait in black and white", layout: "v", pos: "center" },
   { src: "/images/gallery-130.jpg", alt: "Studio portrait with green background", layout: "v", pos: "center" },
 
   // Row 2: full-width editorial break
-  { src: "/images/gallery-320.jpg", alt: "Black and white editorial portrait", layout: "h", pos: "50% 30%" },
+  { src: "/images/gallery-720.jpg", alt: "Black and white editorial portrait", layout: "h", pos: "50% 30%" },
 
   // Row 3: portrait + wide scene
-  { src: "/images/gallery-720.jpg", alt: "Portrait in warm hallway light", layout: "v", pos: "center" },
-  { src: "/images/gallery-900.jpg", alt: "Dramatic theater scene with rose petals", layout: "hm", pos: "50% 40%" },
+  { src: "/images/gallery-610.jpg", alt: "Portrait in warm hallway light", layout: "v", pos: "center" },
+  { src: "/images/gallery-320.jpg", alt: "Dramatic theater scene with rose petals", layout: "hm", pos: "50% 40%" },
 
   // Row 4: vibrant trio
   { src: "/images/gallery-450.jpg", alt: "Profile portrait with embroidered scarf", layout: "v", pos: "center" },
-  { src: "/images/gallery-110.jpg", alt: "Portrait on yellow chair", layout: "v", pos: "center" },
+  { src: "/images/gallery-1000.jpg", alt: "Portrait on yellow chair", layout: "v", pos: "center" },
   { src: "/images/gallery-120.jpg", alt: "Fashion portrait with orange background", layout: "v", pos: "center" },
 
   // Row 5: city night wide + candid market
+  { src: "/images/gallery-310.jpg", alt: "Woman posing at digital billboard", layout: "v", pos: "center" },
   { src: "/images/gallery-620.jpg", alt: "Woman looking back in night city", layout: "hm", pos: "50% 35%" },
-  { src: "/images/gallery-2000.jpg", alt: "Elder man at colorful market stall", layout: "v", pos: "center" },
+  // { src: "/images/gallery-2000.jpg", alt: "Elder man at colorful market stall", layout: "v", pos: "center" },
 
   // Row 6: urban + festival portraits
+  { src: "/images/gallery-420.jpg", alt: "Close portrait with flower crown", layout: "v", pos: "center" },
   { src: "/images/gallery-440.jpg", alt: "Man at Uganda cultural stall", layout: "v", pos: "center" },
   { src: "/images/gallery-410.jpg", alt: "Woman with red flower at festival", layout: "v", pos: "50% 20%" },
-  { src: "/images/gallery-420.jpg", alt: "Close portrait with flower crown", layout: "v", pos: "center" },
 
   // Row 7: joyful candid + street wide
-  { src: "/images/gallery-310.jpg", alt: "Woman posing at digital billboard", layout: "v", pos: "center" },
-  { src: "/images/gallery-800.jpg", alt: "Three children walking in matching red uniforms", layout: "hm", pos: "50% 40%" },
+  { src: "/images/gallery-800.jpg", alt: "Three children walking in matching red uniforms", layout: "h", pos: "50% 30%" },
 
   // { src: "/images/gallery-620.jpg", alt: "Error404", layout: "v", pos: "center"},
 
